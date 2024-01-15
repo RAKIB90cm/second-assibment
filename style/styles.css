@@ -2,14 +2,26 @@
 
 /*shared element*/
 
-*{
+* {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0px;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-.cmn-color{
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.discription {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.cmn-color {
     color: red;
 }
 
@@ -17,31 +29,30 @@
 
 /*start nav*/
 
-nav{
+nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     margin: 40px auto;
-/*    border: 1px solid red;*/
+    /*border: 1px solid red;*/
 }
 
-.left-column{
+.left-column {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: left;
     gap: 15px;
-/*    border: 1px solid red;*/
+    /*border: 1px solid red;*/
 }
 
-.left-column img{
+.left-column img {
     width: 100%;
 }
 
-.nav-title{
+.nav-title {
     font-size: 2rem;
     font-weight: 900;
 }
 
-.right-column ul{
+.right-column ul {
     display: flex;
     justify-content: end;
     gap: 30px;
@@ -50,16 +61,68 @@ nav{
     font-weight: 600;
     cursor: pointer;
     transition: .5s;
-/*    border: 1px solid red;*/
+    /*border: 1px solid red;*/
 }
 
-.right-column ul li:hover{
+.right-column ul li:hover {
     color: red;
     font-size: 1.1rem;
 }
 
 
+/*Finish Nav*/
+/*Start Banner*/
 
+.banner {
+    border: 1px solid red;
+    background-color: rgb(230, 132, 20);
+    /*background-image: url('Images/Group13(1).png');*/
+}
+
+.banner-content {
+    max-width: 880px;
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.list {
+    width: 600px;
+    height: 100px;
+    background-color: rgb(187, 182, 179);
+    border-radius: 5px;
+}
+
+.list ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+}
+
+.list ul li {
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.clr {
+    background-color: red;
+}
+
+.bnr {
+    width: 710px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+/*finished banner*/
 
 
 
@@ -67,16 +130,46 @@ nav{
 
 @media screen and (max-width: 600px) {
 
-    nav{
+    nav {
         flex-direction: column;
         padding: 10px;
     }
-    .nav-title{
+
+    .nav-title {
         font-size: 1rem;
     }
-    .right-column ul{
+    .icon{
+        text-align: center;
+    }
+
+    .right-column ul {
         flex-direction: column;
         gap: 15px;
         padding: 10px;
+    }
+
+    /*complit nav*/
+
+    .banner{
+        padding: 10px;
+    }
+
+    .banner-content {
+        max-width: 50%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .banner-title {
+        font-size: 1.5rem;
+    }
+
+    .list {
+        display: none;
+    }
+    .bnr {
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
