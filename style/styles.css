@@ -25,6 +25,10 @@
     color: red;
 }
 
+.cmn-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
 
 
 /*start nav*/
@@ -136,10 +140,6 @@ nav {
     margin-bottom: 60px;
 }
 
-.tours-title{
-    font-size: 3rem;
-    font-weight: 700;
-}
 
 .trs{
     color: rgb(44, 42, 42);
@@ -170,6 +170,110 @@ li{
     background-color: white;
     color: red;
 }
+
+
+/*finish tours*/
+
+
+/*
+.destination-title{
+    text-align: center;
+}
+
+.dscrp{
+    color: rgb(44, 42, 42);
+}
+
+
+.one{
+    display: flex;
+    gap: 15px;
+}
+
+.one img{
+    width: 100%;
+}
+
+.two {
+    display: flex;
+    flex: 30% 50% 20%;
+}
+
+.two img{
+    width: 100%;
+}
+
+*/
+
+
+
+.why-choose{
+    margin: 80px auto;
+}
+
+.why-choose-title{
+    text-align: center;
+}
+
+.left, .right, .price{
+    display: block;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.left{
+    background-color: antiquewhite;
+    border: 2px solid antiquewhite;
+}
+
+.left:hover{
+    border: 2px solid red;
+}
+
+.right{
+    background-color: rgba(178, 197, 148, 0.568);
+    border: 2px solid rgba(178, 197, 148, 0.568);
+}
+
+.right:hover{
+    border: 2px solid red;
+}
+
+.price{
+    background-color: #a57b3f;
+    border: 2px solid rgb(133, 97, 46);
+    width: 50%;
+    margin-top: 15px;
+}
+
+.price:hover{
+    border: 2px solid red;
+}
+
+.column{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.service-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.discriptions{
+    width: left 50%;
+}
+
+.us{
+    color: rgb(44, 42, 42);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+/*finish why-choose*/
 
 
 
@@ -248,5 +352,27 @@ li{
         margin-top: 8px;
         margin-bottom: 35px;
     }
+
     /*complit tours*/
+
+
+    .why-choose{
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .column{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .us{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .price{
+        width: 50%;
+        margin-top: 10px;
+    }
+    
 }
