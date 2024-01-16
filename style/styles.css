@@ -285,6 +285,103 @@ li{
 /*finish why-choose*/
 
 
+.news-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /*border: 1px solid red;*/
+}
+
+.news-content{
+    padding: 30px;
+    /*border: 1px solid red;*/
+}
+
+.news-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.news-discription{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+form input{
+    width: 90%;
+    outline: none;
+    border-radius: 8px;
+    border: 0;
+    background-color: #e7dfd3;
+}
+
+.name, .email {
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.submit{
+    width: 90%;
+    outline: none;
+    border-radius: 8px;
+    border: 0;
+    background-color: rgb(202, 161, 161);
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.submits {
+    background: none;
+    font-size: 22px;
+    color: wheat;
+}
+
+
+.news-img{
+    background-image: url('../Images/Rectangle8\(1\).png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.offer {
+    background-color: #bb9d9d;
+    height: auto;
+    width: 250px;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 239px;
+    left: 528px;
+    rotate: 50%;
+    color: white;
+}
+
+.web{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.stp{
+    font-size: 35pxrem;
+    font-weight: 900;
+    color: red;
+}
+
+
+/*finish newslater*/
+
+
+
 footer{
     max-width: 1440px;
     margin: 0 auto;
@@ -452,6 +549,20 @@ hr{
     }
     
     /*finish why-choose*/
+
+
+
+
+    .news-container{
+       grid-template-rows: 1fr 1fr;
+    }
+    .offer{
+        display: none;
+    }
+
+    /*finish newslater*/
+
+
 
     footer{
         text-align: center;
