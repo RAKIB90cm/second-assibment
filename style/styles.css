@@ -182,8 +182,8 @@ li{
 /*finish tours*/
 
 
-/*
-.destination-title{
+
+/*.destination-title{
     text-align: center;
 }
 
@@ -202,15 +202,17 @@ li{
 }
 
 .two {
-    display: flex;
-    flex: 30% 50% 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 30% 50% 20%;
+    gap: 5px;
 }
 
 .two img{
     width: 100%;
-}
+}*/
 
-*/
+/*finish destination*/
 
 
 
@@ -282,6 +284,61 @@ li{
 
 /*finish why-choose*/
 
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(233, 212, 202);
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    padding: 120px;
+    border-radius: 10px;
+}
+
+.icon{
+    display: inline-flex;
+    text-align: center;
+}
+
+.icon img{
+    padding-left: 50px;
+}
+
+.icon .nav-title{
+    padding-left: 50px;
+}
+
+.foot{
+    width: 800px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.icons ul{
+    display: inline-flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 30px;
+}
+
+
+.icons ul li a{
+    color: black;
+    transition: .5s;
+}
+
+.icons ul li a:hover{
+    color: red;
+}
+
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*finish footer*/
 
 
 
@@ -394,4 +451,31 @@ li{
         margin-top: 10px;
     }
     
+    /*finish why-choose*/
+
+    footer{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding: 15px;
+    }
+    .foot{
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    hr{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .icons ul{
+        gap: 10px;
+        font-size: 30px;
+    }
+    .icon .nav-title{
+        padding-left: 0px;
+        align-items: center;
+    }
+
+    /*finished footer*/
 }
