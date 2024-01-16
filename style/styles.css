@@ -414,18 +414,18 @@ form input{
     width: 100%;
 }
 
-/*.offer {
+.offer {
     background-color: #bb9d9d;
     height: auto;
-    width: 250px;
+    width: 240px;
     padding: 50px;
     border-radius: 10px;
     position: absolute;
-    top: 37%;
-    left: 55%;
-    transform: rotate(-26deg);
+    top: 53%;
+    left: 58%;
+    transform: rotate(-28deg);
     color: white;
-}*/
+}
 
 .web{
     font-size: 1.5rem;
@@ -508,13 +508,13 @@ hr{
 
     nav {
         margin-top: 15px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         flex-direction: column;
         padding: 15px;
     }
 
     .nav-title {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
     .icon{
@@ -524,8 +524,12 @@ hr{
 
     .right-column ul {
         flex-direction: column;
-        gap: 3px;
+        gap: 0;
     }
+    .right-column {
+        padding: 40px;
+    }
+
 
     /*complit nav*/
 
@@ -603,6 +607,10 @@ hr{
         margin-bottom: 20px;
         padding: 15px;
     }
+    .destination-title {
+        font-size: 1.8rem;
+    }
+
     .dscrp{
 
         margin-top: 20px;
@@ -633,42 +641,20 @@ hr{
     .img-5{
         width: 100%;
     }
+
     /*complit destination*/
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .why-choose{
-        margin: 20px auto;
+    .why-choose {
+        margin: 0px auto;
         padding: 15px;
+    }
+
+    .why-choose-title {
+        font-size: 1.8rem;
     }
 
     .column{
@@ -691,10 +677,20 @@ hr{
 
 
     .news-container{
-       grid-template-rows: 1fr 1fr;
+        flex-direction: column;
+        padding: 10px;
     }
-    .offer{
-        display: none;
+    
+    .offer {
+        background-color: #bb9d9d;
+        height: auto;
+        width: 105px;
+        padding: 28px;
+        border-radius: 10px;
+        position: absolute;
+        top: 29%;
+        left: 52%;
+        transform: rotate(-28deg);
     }
 
     /*finish newslater*/
