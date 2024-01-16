@@ -35,9 +35,10 @@
 
 nav {
     display: flex;
-    justify-content: right;
+    justify-content: start;
     margin: 40px auto;
     /*border: 1px solid red;*/
+    
 }
 
 .left-column {
@@ -78,13 +79,19 @@ nav {
 /*Start Banner*/
 
 .banner {
-    border: 1px solid red;
-    background-color: rgb(230, 132, 20);
-    /*background-image: url('Images/Group13(1).png');*/
+    /*border: 1px solid red;*/
+    background-image: url('../Images/Group13\(1\)\ \(1\).png');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    
 }
 
 .banner-content {
     max-width: 880px;
+    padding-top: 150px;
+    padding-bottom: 120px;
     margin-top: 150px;
     margin-bottom: 120px;
 }
@@ -286,7 +293,7 @@ li{
         margin-top: 15px;
         margin-bottom: 10px;
         flex-direction: column;
-        padding: 10px;
+        padding: 15px;
     }
 
     .nav-title {
@@ -295,6 +302,7 @@ li{
 
     .icon{
         text-align: center;
+        width: 50%;
     }
 
     .right-column ul {
@@ -305,13 +313,16 @@ li{
     /*complit nav*/
 
     .banner{
-        padding: 10px;
+        padding: 15px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
     }
 
     .banner-content {
         max-width: 50%;
-        margin-top: 10px;
-        margin-bottom: 5px;
+        margin-top: -128px;
+        margin-bottom: -90px;
     }
 
     .banner-title {
@@ -320,7 +331,15 @@ li{
     }
 
     .list {
-        display: none;
+        width: auto;
+        height: auto;
+        background-color: rgb(187, 182, 179);
+    }
+
+    .list ul{
+        flex-direction: column;
+        text-align: center;
+        padding-right: 25px;
     }
 
 
@@ -336,7 +355,7 @@ li{
         flex-direction: column;
         margin-top: 10px;
         margin-bottom: 10px;
-        padding: 10px;
+        padding: 15px;
     }
 
     .tours-title{
@@ -358,7 +377,7 @@ li{
 
     .why-choose{
         margin: 20px auto;
-        padding: 10px;
+        padding: 15px;
     }
 
     .column{
@@ -371,7 +390,7 @@ li{
         width: 100%;
     }
     .price{
-        width: 50%;
+        width: 85%;
         margin-top: 10px;
     }
     
